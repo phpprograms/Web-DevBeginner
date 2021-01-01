@@ -1,0 +1,27 @@
+body{background-image: url(../img/darksunlogo.ico);
+	 background-position: cover;
+	 background-size: span;
+	 font-family: sans-serif;
+	 font-size: 50px;
+	 font-weight: bold;
+	 text-decoration-style: unset;
+	 color: pink;
+}
+
+.para {font-family: sans-serif;
+	   font-weight: bold;
+	   font-size: 50px;
+	   text-decoration-style: unset;
+	   color: pink;
+	   perspective-origin:  
+}
+.para: hover {transition-delay: 200ms;
+	          text-transform: left 600px;
+	          transition-duration: 1000ms;
+	          font-size: 64px;
+	          text-transform: color;
+	          color: gradient(6, 6, 4 #FFF101)
+	          transition-duration: 224ms; 
+
+
+}

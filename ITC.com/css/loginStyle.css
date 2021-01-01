@@ -1,0 +1,84 @@
+body {background-color: black; 
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	  grid-template-rows: 200px 890px 200px;
+	  align-content: center;
+	
+}
+.wrapper {display: grid;
+	      grid-row: 2 / 3;
+	      grid-column: 1 / -1;
+	      background-color: darkgrey;
+	      align-content: center; 
+
+}
+.logFrmBox {grid-row: 1 / -1;
+	        grid-column: 10 / 30;
+	        grid-gap: 0px;
+	        position: absolute;
+	        background-color: darkblue;
+	        margin: 10px;
+	        left: 698px;
+	        top: 300px;
+	        border-style: ridge;
+	        border-color: teal;
+	        border-radius: 720px;
+	        height: 400px; 
+	        width: 400px;
+
+}
+.ulstyle {list-style: none;
+	      grid-column: 4 / 6;
+	      border-style: none;
+	      border-color: ;
+          border-radius: 15px;
+          border-width: 2px;
+          position: relative;
+          position: center;
+          margin: 2px;
+          padding: 10px;
+          justify-content: center;
+}
+.listyle {list-style: none;
+	      position: relative;
+          position: center;
+          margin: 2px;
+          padding: 10px;
+          width: 300px; 
+          justify-content: center;
+
+}
+.loginInput {border-style: ridge;
+	        border-color: grey;
+            border-radius: 15px;
+            border-width: 2px;
+            position: relative;
+            position: center;
+            margin: 2px;
+            padding: 10px;
+            width: 250px;
+            left: 36px;
+            top: 87px;
+
+}
+.loginBtn {border-style: ridge;
+	      border-color: grey;
+          border-radius: 15px;
+          border-width: 2px;
+          position: relative;
+          position: center;
+          margin: 2px;
+          padding: 10px;
+          width: 212px;
+          left: 67px;
+          top: 87px;
+
+}
+.gojoin      {position: relative;
+	          right: 132px;
+	          top: 136px;
+	          font-color: #EBEEFE;
+	          text-decoration: underline;
+	          cursor: pointer;
+	          font-weight: bold;
+
